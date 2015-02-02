@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD40538029037272B50FEF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338B97A247CE0F342848ED47 /* libPods.a */; };
+		909F68931A5924E5009D2CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68921A5924E5009D2CA4 /* main.m */; };
+		909F68961A5924E5009D2CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68951A5924E5009D2CA4 /* AppDelegate.m */; };
+		909F68991A5924E5009D2CA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68981A5924E5009D2CA4 /* ViewController.m */; };
+		909F689C1A5924E5009D2CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909F689A1A5924E5009D2CA4 /* Main.storyboard */; };
+		909F689E1A5924E5009D2CA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909F689D1A5924E5009D2CA4 /* Images.xcassets */; };
+		909F68A11A5924E5009D2CA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 909F689F1A5924E5009D2CA4 /* LaunchScreen.xib */; };
+		909F68AD1A5924E5009D2CA4 /* Masonry_parsifalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68AC1A5924E5009D2CA4 /* Masonry_parsifalTests.m */; };
+		90E585601A7F557D0083A7A5 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E5855F1A7F557D0083A7A5 /* ExampleViewController.m */; };
+		90E585641A7F56BF0083A7A5 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E585631A7F56BF0083A7A5 /* BasicView.m */; };
+		90E585671A7F5F5C0083A7A5 /* UpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E585661A7F5F5C0083A7A5 /* UpdateView.m */; };
+		90E5856A1A7F6D130083A7A5 /* RemakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E585691A7F6D130083A7A5 /* RemakeView.m */; };
+		90E5856D1A7F72EC0083A7A5 /* ConstantsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E5856C1A7F72EC0083A7A5 /* ConstantsView.m */; };
+		90E585701A7F7B940083A7A5 /* SidesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E5856F1A7F7B940083A7A5 /* SidesView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		909F68A71A5924E5009D2CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909F68851A5924E5009D2CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909F688C1A5924E5009D2CA4;
+			remoteInfo = "Masonry-parsifal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A64CCC84296E6355584041C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		338B97A247CE0F342848ED47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		909F688D1A5924E5009D2CA4 /* Masonry-parsifal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masonry-parsifal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		909F68911A5924E5009D2CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909F68921A5924E5009D2CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		909F68941A5924E5009D2CA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		909F68951A5924E5009D2CA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		909F68971A5924E5009D2CA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		909F68981A5924E5009D2CA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		909F689B1A5924E5009D2CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		909F689D1A5924E5009D2CA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		909F68A01A5924E5009D2CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		909F68A61A5924E5009D2CA4 /* Masonry-parsifalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masonry-parsifalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		909F68AB1A5924E5009D2CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909F68AC1A5924E5009D2CA4 /* Masonry_parsifalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masonry_parsifalTests.m; sourceTree = "<group>"; };
+		90E5855E1A7F557D0083A7A5 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		90E5855F1A7F557D0083A7A5 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		90E585621A7F56BF0083A7A5 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		90E585631A7F56BF0083A7A5 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		90E585651A7F5F5C0083A7A5 /* UpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateView.h; sourceTree = "<group>"; };
+		90E585661A7F5F5C0083A7A5 /* UpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateView.m; sourceTree = "<group>"; };
+		90E585681A7F6D130083A7A5 /* RemakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemakeView.h; sourceTree = "<group>"; };
+		90E585691A7F6D130083A7A5 /* RemakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemakeView.m; sourceTree = "<group>"; };
+		90E5856B1A7F72EC0083A7A5 /* ConstantsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsView.h; sourceTree = "<group>"; };
+		90E5856C1A7F72EC0083A7A5 /* ConstantsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantsView.m; sourceTree = "<group>"; };
+		90E5856E1A7F7B940083A7A5 /* SidesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidesView.h; sourceTree = "<group>"; };
+		90E5856F1A7F7B940083A7A5 /* SidesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidesView.m; sourceTree = "<group>"; };
+		A47FBF555BDFAD090E58CAF2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909F688A1A5924E5009D2CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD40538029037272B50FEF3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909F68A31A5924E5009D2CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408A9AC7DFDBFAE28EDA0EAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A47FBF555BDFAD090E58CAF2 /* Pods.debug.xcconfig */,
+				1A64CCC84296E6355584041C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B40950754195D783199A2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338B97A247CE0F342848ED47 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		909F68841A5924E5009D2CA4 = {
+			isa = PBXGroup;
+			children = (
+				909F688F1A5924E5009D2CA4 /* Masonry-parsifal */,
+				909F68A91A5924E5009D2CA4 /* Masonry-parsifalTests */,
+				909F688E1A5924E5009D2CA4 /* Products */,
+				408A9AC7DFDBFAE28EDA0EAA /* Pods */,
+				5B40950754195D783199A2C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		909F688E1A5924E5009D2CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909F688D1A5924E5009D2CA4 /* Masonry-parsifal.app */,
+				909F68A61A5924E5009D2CA4 /* Masonry-parsifalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909F688F1A5924E5009D2CA4 /* Masonry-parsifal */ = {
+			isa = PBXGroup;
+			children = (
+				909F68941A5924E5009D2CA4 /* AppDelegate.h */,
+				909F68951A5924E5009D2CA4 /* AppDelegate.m */,
+				909F68971A5924E5009D2CA4 /* ViewController.h */,
+				909F68981A5924E5009D2CA4 /* ViewController.m */,
+				90E5855E1A7F557D0083A7A5 /* ExampleViewController.h */,
+				90E5855F1A7F557D0083A7A5 /* ExampleViewController.m */,
+				90E585611A7F56A90083A7A5 /* views */,
+				909F689A1A5924E5009D2CA4 /* Main.storyboard */,
+				909F689D1A5924E5009D2CA4 /* Images.xcassets */,
+				909F689F1A5924E5009D2CA4 /* LaunchScreen.xib */,
+				909F68901A5924E5009D2CA4 /* Supporting Files */,
+			);
+			path = "Masonry-parsifal";
+			sourceTree = "<group>";
+		};
+		909F68901A5924E5009D2CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				909F68911A5924E5009D2CA4 /* Info.plist */,
+				909F68921A5924E5009D2CA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		909F68A91A5924E5009D2CA4 /* Masonry-parsifalTests */ = {
+			isa = PBXGroup;
+			children = (
+				909F68AC1A5924E5009D2CA4 /* Masonry_parsifalTests.m */,
+				909F68AA1A5924E5009D2CA4 /* Supporting Files */,
+			);
+			path = "Masonry-parsifalTests";
+			sourceTree = "<group>";
+		};
+		909F68AA1A5924E5009D2CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				909F68AB1A5924E5009D2CA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90E585611A7F56A90083A7A5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				90E585621A7F56BF0083A7A5 /* BasicView.h */,
+				90E585631A7F56BF0083A7A5 /* BasicView.m */,
+				90E585651A7F5F5C0083A7A5 /* UpdateView.h */,
+				90E585661A7F5F5C0083A7A5 /* UpdateView.m */,
+				90E585681A7F6D130083A7A5 /* RemakeView.h */,
+				90E585691A7F6D130083A7A5 /* RemakeView.m */,
+				90E5856B1A7F72EC0083A7A5 /* ConstantsView.h */,
+				90E5856C1A7F72EC0083A7A5 /* ConstantsView.m */,
+				90E5856E1A7F7B940083A7A5 /* SidesView.h */,
+				90E5856F1A7F7B940083A7A5 /* SidesView.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909F688C1A5924E5009D2CA4 /* Masonry-parsifal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909F68B01A5924E5009D2CA4 /* Build configuration list for PBXNativeTarget "Masonry-parsifal" */;
+			buildPhases = (
+				19AAA5FF40524069A46E64F9 /* Check Pods Manifest.lock */,
+				909F68891A5924E5009D2CA4 /* Sources */,
+				909F688A1A5924E5009D2CA4 /* Frameworks */,
+				909F688B1A5924E5009D2CA4 /* Resources */,
+				8C7161309A5D2C1DE4F4C132 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masonry-parsifal";
+			productName = "Masonry-parsifal";
+			productReference = 909F688D1A5924E5009D2CA4 /* Masonry-parsifal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		909F68A51A5924E5009D2CA4 /* Masonry-parsifalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909F68B31A5924E5009D2CA4 /* Build configuration list for PBXNativeTarget "Masonry-parsifalTests" */;
+			buildPhases = (
+				909F68A21A5924E5009D2CA4 /* Sources */,
+				909F68A31A5924E5009D2CA4 /* Frameworks */,
+				909F68A41A5924E5009D2CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909F68A81A5924E5009D2CA4 /* PBXTargetDependency */,
+			);
+			name = "Masonry-parsifalTests";
+			productName = "Masonry-parsifalTests";
+			productReference = 909F68A61A5924E5009D2CA4 /* Masonry-parsifalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909F68851A5924E5009D2CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Parsifal;
+				TargetAttributes = {
+					909F688C1A5924E5009D2CA4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					909F68A51A5924E5009D2CA4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 909F688C1A5924E5009D2CA4;
+					};
+				};
+			};
+			buildConfigurationList = 909F68881A5924E5009D2CA4 /* Build configuration list for PBXProject "Masonry-parsifal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 909F68841A5924E5009D2CA4;
+			productRefGroup = 909F688E1A5924E5009D2CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909F688C1A5924E5009D2CA4 /* Masonry-parsifal */,
+				909F68A51A5924E5009D2CA4 /* Masonry-parsifalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909F688B1A5924E5009D2CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909F689C1A5924E5009D2CA4 /* Main.storyboard in Resources */,
+				909F68A11A5924E5009D2CA4 /* LaunchScreen.xib in Resources */,
+				909F689E1A5924E5009D2CA4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909F68A41A5924E5009D2CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19AAA5FF40524069A46E64F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7161309A5D2C1DE4F4C132 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909F68891A5924E5009D2CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E585701A7F7B940083A7A5 /* SidesView.m in Sources */,
+				90E585641A7F56BF0083A7A5 /* BasicView.m in Sources */,
+				909F68991A5924E5009D2CA4 /* ViewController.m in Sources */,
+				90E5856D1A7F72EC0083A7A5 /* ConstantsView.m in Sources */,
+				90E585601A7F557D0083A7A5 /* ExampleViewController.m in Sources */,
+				90E5856A1A7F6D130083A7A5 /* RemakeView.m in Sources */,
+				90E585671A7F5F5C0083A7A5 /* UpdateView.m in Sources */,
+				909F68961A5924E5009D2CA4 /* AppDelegate.m in Sources */,
+				909F68931A5924E5009D2CA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909F68A21A5924E5009D2CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909F68AD1A5924E5009D2CA4 /* Masonry_parsifalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		909F68A81A5924E5009D2CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909F688C1A5924E5009D2CA4 /* Masonry-parsifal */;
+			targetProxy = 909F68A71A5924E5009D2CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		909F689A1A5924E5009D2CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909F689B1A5924E5009D2CA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		909F689F1A5924E5009D2CA4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909F68A01A5924E5009D2CA4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		909F68AE1A5924E5009D2CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909F68AF1A5924E5009D2CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909F68B11A5924E5009D2CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47FBF555BDFAD090E58CAF2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Masonry-parsifal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		909F68B21A5924E5009D2CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A64CCC84296E6355584041C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Masonry-parsifal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		909F68B41A5924E5009D2CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Masonry-parsifalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masonry-parsifal.app/Masonry-parsifal";
+			};
+			name = Debug;
+		};
+		909F68B51A5924E5009D2CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Masonry-parsifalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masonry-parsifal.app/Masonry-parsifal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909F68881A5924E5009D2CA4 /* Build configuration list for PBXProject "Masonry-parsifal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909F68AE1A5924E5009D2CA4 /* Debug */,
+				909F68AF1A5924E5009D2CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909F68B01A5924E5009D2CA4 /* Build configuration list for PBXNativeTarget "Masonry-parsifal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909F68B11A5924E5009D2CA4 /* Debug */,
+				909F68B21A5924E5009D2CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909F68B31A5924E5009D2CA4 /* Build configuration list for PBXNativeTarget "Masonry-parsifalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909F68B41A5924E5009D2CA4 /* Debug */,
+				909F68B51A5924E5009D2CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 909F68851A5924E5009D2CA4 /* Project object */;
+}
