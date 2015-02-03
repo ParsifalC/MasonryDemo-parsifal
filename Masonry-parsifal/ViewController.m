@@ -15,6 +15,8 @@
 #import "RemakeView.h"
 #import "ConstantsView.h"
 #import "SidesView.h"
+#import "AnimatedView.h"
+
 
 static NSString *cellID = @"cell";
 
@@ -81,6 +83,13 @@ static NSString *cellID = @"cell";
         case 4:
         {
             ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"side view" viewClass:[SidesView new]];
+            [self.navigationController pushViewController:exampleVC animated:YES];
+            break;
+        }
+            
+        case 5:
+        {
+            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"animated view" viewClass:[AnimatedView new]];
             [self.navigationController pushViewController:exampleVC animated:YES];
             break;
         }
