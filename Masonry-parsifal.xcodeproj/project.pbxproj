@@ -22,6 +22,7 @@
 		90E5856D1A7F72EC0083A7A5 /* ConstantsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E5856C1A7F72EC0083A7A5 /* ConstantsView.m */; };
 		90E585701A7F7B940083A7A5 /* SidesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E5856F1A7F7B940083A7A5 /* SidesView.m */; };
 		90E585731A807AED0083A7A5 /* AnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E585721A807AED0083A7A5 /* AnimatedView.m */; };
+		90E585791A81B4750083A7A5 /* EqualWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E585781A81B4750083A7A5 /* EqualWidthView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		90E5856F1A7F7B940083A7A5 /* SidesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidesView.m; sourceTree = "<group>"; };
 		90E585711A807AED0083A7A5 /* AnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedView.h; sourceTree = "<group>"; };
 		90E585721A807AED0083A7A5 /* AnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedView.m; sourceTree = "<group>"; };
+		90E585771A81B4750083A7A5 /* EqualWidthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualWidthView.h; sourceTree = "<group>"; };
+		90E585781A81B4750083A7A5 /* EqualWidthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualWidthView.m; sourceTree = "<group>"; };
 		A47FBF555BDFAD090E58CAF2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +185,8 @@
 				90E5856F1A7F7B940083A7A5 /* SidesView.m */,
 				90E585711A807AED0083A7A5 /* AnimatedView.h */,
 				90E585721A807AED0083A7A5 /* AnimatedView.m */,
+				90E585771A81B4750083A7A5 /* EqualWidthView.h */,
+				90E585781A81B4750083A7A5 /* EqualWidthView.m */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 				90E5856D1A7F72EC0083A7A5 /* ConstantsView.m in Sources */,
 				90E585601A7F557D0083A7A5 /* ExampleViewController.m in Sources */,
 				90E585731A807AED0083A7A5 /* AnimatedView.m in Sources */,
+				90E585791A81B4750083A7A5 /* EqualWidthView.m in Sources */,
 				90E5856A1A7F6D130083A7A5 /* RemakeView.m in Sources */,
 				90E585671A7F5F5C0083A7A5 /* UpdateView.m in Sources */,
 				909F68961A5924E5009D2CA4 /* AppDelegate.m in Sources */,

@@ -16,7 +16,7 @@
 #import "ConstantsView.h"
 #import "SidesView.h"
 #import "AnimatedView.h"
-
+#import "EqualWidthView.h"
 
 static NSString *cellID = @"cell";
 
@@ -90,6 +90,13 @@ static NSString *cellID = @"cell";
         case 5:
         {
             ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"animated view" viewClass:[AnimatedView new]];
+            [self.navigationController pushViewController:exampleVC animated:YES];
+            break;
+        }
+            
+        case 6:
+        {
+            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"animated view" viewClass:[EqualWidthView new]];
             [self.navigationController pushViewController:exampleVC animated:YES];
             break;
         }
