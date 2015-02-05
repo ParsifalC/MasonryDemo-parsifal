@@ -89,12 +89,12 @@
     return _constrainsArray;
 }
 
-- (void)didMoveToSuperview
+- (void)didMoveToWindow
 {
-    [super didMoveToSuperview];
+    [super didMoveToWindow];
     [self layoutIfNeeded];
     
-    if (self.superview) {
+    if (self.window) {
         [self changeSuperViewSize:NO];
     }
 }

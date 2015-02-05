@@ -86,9 +86,9 @@
     return _animatableConstraints;
 }
 
-- (void)didMoveToSuperview
+- (void)didMoveToWindow
 {
-    [super didMoveToSuperview];
+    [super didMoveToWindow];
     [self layoutIfNeeded];
     
     self.shouldAnimated = YES;
