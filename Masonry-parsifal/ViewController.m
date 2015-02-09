@@ -17,6 +17,8 @@
 #import "SidesView.h"
 #import "AnimatedView.h"
 #import "EqualWidthView.h"
+#import "LabelView.h"
+#import "ScrollView.h"
 
 static NSString *cellID = @"cell";
 
@@ -35,9 +37,7 @@ static NSString *cellID = @"cell";
     //register cell
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
     
-    for (int i = 1; i < 11; i++) {
-        [self.mulArray addObject:@(i).stringValue];
-    }
+    [self.mulArray addObjectsFromArray:@[@"basic", @"update", @"remake", @"using constrant", @"side view", @"animated view", @"equal width view", @"label view", @"scroll view"]];
 }
 
 - (void)dealloc
@@ -96,7 +96,20 @@ static NSString *cellID = @"cell";
             
         case 6:
         {
-            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"animated view" viewClass:[EqualWidthView new]];
+            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"equal width view" viewClass:[EqualWidthView new]];
+            [self.navigationController pushViewController:exampleVC animated:YES];
+            break;
+        }
+        case 7:
+        {
+            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"label view" viewClass:[LabelView new]];
+            [self.navigationController pushViewController:exampleVC animated:YES];
+            break;
+        }
+            
+        case 8:
+        {
+            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"scroll view" viewClass:[ScrollView new]];
             [self.navigationController pushViewController:exampleVC animated:YES];
             break;
         }
