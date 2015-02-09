@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8CD40538029037272B50FEF3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 338B97A247CE0F342848ED47 /* libPods.a */; };
+		908B48BE1A88857B003F295B /* ArrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B48BD1A88857B003F295B /* ArrayView.m */; };
 		909F68931A5924E5009D2CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68921A5924E5009D2CA4 /* main.m */; };
 		909F68961A5924E5009D2CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68951A5924E5009D2CA4 /* AppDelegate.m */; };
 		909F68991A5924E5009D2CA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 909F68981A5924E5009D2CA4 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		1A64CCC84296E6355584041C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		338B97A247CE0F342848ED47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		908B48BC1A88857B003F295B /* ArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayView.h; sourceTree = "<group>"; };
+		908B48BD1A88857B003F295B /* ArrayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayView.m; sourceTree = "<group>"; };
 		909F688D1A5924E5009D2CA4 /* Masonry-parsifal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masonry-parsifal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		909F68911A5924E5009D2CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		909F68921A5924E5009D2CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 				90E5857E1A83105A0083A7A5 /* LabelView.m */,
 				90E585801A834CD40083A7A5 /* ScrollView.h */,
 				90E585811A834CD40083A7A5 /* ScrollView.m */,
+				908B48BC1A88857B003F295B /* ArrayView.h */,
+				908B48BD1A88857B003F295B /* ArrayView.m */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				90E585641A7F56BF0083A7A5 /* BasicView.m in Sources */,
 				909F68991A5924E5009D2CA4 /* ViewController.m in Sources */,
 				90E5856D1A7F72EC0083A7A5 /* ConstantsView.m in Sources */,
+				908B48BE1A88857B003F295B /* ArrayView.m in Sources */,
 				90E585601A7F557D0083A7A5 /* ExampleViewController.m in Sources */,
 				90E5857F1A83105A0083A7A5 /* LabelView.m in Sources */,
 				90E585731A807AED0083A7A5 /* AnimatedView.m in Sources */,

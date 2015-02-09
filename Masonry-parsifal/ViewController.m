@@ -19,6 +19,7 @@
 #import "EqualWidthView.h"
 #import "LabelView.h"
 #import "ScrollView.h"
+#import "ArrayView.h"
 
 static NSString *cellID = @"cell";
 
@@ -37,7 +38,10 @@ static NSString *cellID = @"cell";
     //register cell
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
     
-    [self.mulArray addObjectsFromArray:@[@"basic", @"update", @"remake", @"using constrant", @"side view", @"animated view", @"equal width view", @"label view", @"scroll view"]];
+    [self.mulArray addObjectsFromArray:@[@"basic", @"update", @"remake", @"using constrant", @"side view", @"animated view", @"equal width view", @"label view", @"scroll view", @"array view"]];
+    
+    //隐藏多余的footer
+    self.tableView.tableFooterView = [UIView new];
 }
 
 - (void)dealloc
@@ -110,6 +114,13 @@ static NSString *cellID = @"cell";
         case 8:
         {
             ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"scroll view" viewClass:[ScrollView new]];
+            [self.navigationController pushViewController:exampleVC animated:YES];
+            break;
+        }
+            
+        case 9:
+        {
+            ExampleViewController *exampleVC = [[ExampleViewController alloc] initWithTitle:@"array view" viewClass:[ArrayView new]];
             [self.navigationController pushViewController:exampleVC animated:YES];
             break;
         }
